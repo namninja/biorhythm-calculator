@@ -17,9 +17,9 @@ function BiorhythmCard({targetDate, birthDate}) {
         <IonCardTitle>{formatDate(targetDate)}</IonCardTitle>
           <IonCardContent>
           <BiorhythmChart targetDate={targetDate} birthDate={birthDate} />
-            <p class="physical">Physical: {biorhythms.physical.toFixed(4)}</p>
-            <p class="emotional">Emotional: {biorhythms.emotional.toFixed(4)}</p>
-            <p class="intellectual">Intellectual: {biorhythms.intellectual.toFixed(4)}</p>
+            <p className="physical">Physical: {biorhythms.physical.toFixed(4)}</p>
+            <p className="emotional">Emotional: {biorhythms.emotional.toFixed(4)}</p>
+            <p className="intellectual">Intellectual: {biorhythms.intellectual.toFixed(4)}</p>
           </IonCardContent>
       </IonCardHeader>
     </IonCard>
